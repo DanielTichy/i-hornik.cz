@@ -1,0 +1,297 @@
+ /*------------------------------------------------------------------------
+# JA Raite for Joomla 1.5.x - Version 1.0 - Licence Owner jSharing
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://jsharing.com -  http://jsharing.net
+# This file may not be redistributed in whole or significant part.
+-------------------------------------------------------------------------*/
+
+a { color: #568736; }
+a:hover, a:active, a:focus { background: #568736; }
+
+a.readon { color: #568736; background: url(../../images/green/arrow-readon.gif) no-repeat 5px center; }
+a.readon:hover, a.readon:focus, a.readon:active { background-color: #568736; }
+
+.inputbox:hover, .inputbox:focus { border: 2px solid #568736; }
+
+.button {
+	background: #568736;
+	border: 1px solid #568736;
+}
+
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus { background: #568736; }
+
+#ja-subnav ul li.active a, #ja-subnav ul li a:hover, #ja-subnav ul li a:active,#ja-subnav ul li a:focus { color: #568736; }
+
+#ja-pathway a:hover, #ja-pathway a:active, #ja-pathway a:focus { background: #568736; }
+
+ul.menu li a:hover, ul.menu li a:active, ul.menu li a:focus { }
+ul.menu li.active a { background: #568736; }
+/* Defined & replaced on hornik.css */
+h1.logo a, 
+h1.logo a:hover, 
+h1.logo a:active, 
+h1.logo a:focus  { 
+	background: url(../../images/green/logo.jpg) no-repeat; 
+}
+/* Defined & replaced on hornik.css */
+#ja-mainnav {
+	border-bottom: 0px;
+	margin-bottom: 3px;
+	height: 45px; /* 56px - 10px padd */
+	background: url('../../images/ja-mainnav-bg.gif') repeat-x;	
+	padding: 11px 0 0px 0;
+}
+/* Defined & replaced on hornik.css */
+#ja-newsflash { 
+	height: 280px;
+	background: url('../../images/ja-newsflash-bg.gif') repeat-x;	
+	padding: 0px 0 16px 0;
+}
+/* Defined & replaced on hornik.css */
+#ja-newsflash .nftitle{
+	color: #006737 !important; 
+	font-weight: bold;
+}
+/* Defined & replaced on hornik.css */
+#ja-newsflash * {
+	color: #000000 !important;
+}
+/* Defined & replaced on hornik.css */
+#ja-newsflash .nfcontent{
+	color: #000000;
+}
+/* Defined & replaced on hornik.css */
+#ja-newsflash .nfcontent ul{
+	margin-top: 5px !important;
+}
+/* Defined & replaced on hornik.css */
+#ja-topsl p img{
+	margin-bottom: 5px;	
+}
+/* Defined & replaced on hornik.css */
+#ja-botsl { 
+	height: 290px;
+	padding-top: 14px;
+	background: url('../../images/ja-botsl-bg.gif') repeat-x;
+}
+/* Defined & replaced on hornik.css */
+#ja-botsl .main { color: #ffffff; }
+#ja-botsl div.moduletable h3 { color: #ffffff; }
+#ja-botsl a:hover, #ja-botsl a:active, #ja-botsl a:focus { background: #385723; }
+#ja-botsl ul.latestnews li, #ja-botsl ul.mostread li {border-top: 1px dotted #7FAA62;}
+#ja-botsl ul.latestnews li a, #ja-botsl ul.mostread li a {color: #ffffff;}
+#ja-botsl ul.latestnews li a:hover, #ja-botsl ul.mostread li a:hover,
+#ja-botsl ul.latestnews li a:active, #ja-botsl ul.mostread li a:active,
+#ja-botsl ul.latestnews li a:focus, #ja-botsl ul.mostread li a:focus {
+	color: #ffffff;
+	background: #385723;
+}
+/* Defined & replaced on hornik.css */
+#ja-footer { 
+	border-top: 0; 
+	height: 49px;
+	background: url('../../images/ja-footer-bg.gif') repeat-x;
+}
+/* Defined & replaced on hornik.css */
+#ja-footer small { color: #C4DCB5; }
+
+#ja-footer a:hover, #ja-footer a:active, #ja-footer a:focus { background: #385723; }
+#ja-footer li { background: url(../../images/green/vline.gif) no-repeat right; }
+
+.nfcontent{ color: #C4DCB5;}
+.nfcontent a {
+	color: #C4DCB5;
+	border-bottom: 1px dotted #C4DCB5;
+}
+
+/* Typography ---*/
+pre, .code {
+	background: #F3F8EF;
+	border-left: 5px solid #568736;
+}
+
+.highlight {
+	background: #F3F8EF;
+	color: #568736;
+}
+
+p.stickynote {
+	background-color: #F3F8EF;
+	border: 1px solid #B9D5A8;
+}
+
+p.download {
+	background-color: #F3F8EF;
+	border: 1px solid #B9D5A8;
+}
+
+blockquote span.open {
+	background: url(../../images/green/so-q.gif) no-repeat left top;
+}
+
+blockquote span.close {
+	background: url(../../images/green/sc-q.gif) no-repeat bottom right;
+}
+
+.dropcap {
+	color: #568736;
+}
+
+ul.checklist li {
+	background: url(../../images/green/icon-checklist.gif) no-repeat 0 4px !important;
+}
+
+ul.arrow li {
+	background: url(../../images/green/icon-arrow.gif) no-repeat 3px 5px;
+}
+
+ul.star li {
+	background: url(../../images/green/icon-star.gif) no-repeat 3px 3px;
+}
+
+.bignumber {
+	background: url(../../images/green/ol-bg.gif) no-repeat top left;
+}
+
+div.bubble1 div {
+	background: url(../../images/green/bub1-br.gif) no-repeat bottom right;
+}
+
+div.bubble1 div div {
+	background: url(../../images/green/bub1-bl.gif) no-repeat bottom left;
+}
+
+div.bubble1 div div div {
+	background: url(../../images/green/bub1-tr.gif) no-repeat top right;
+}
+
+div.bubble1 div div div div {
+	background: url(../../images/green/bub1-tl.gif) no-repeat top left;
+}
+
+div.bubble2 div {
+	background: url(../../images/green/bub2-br.gif) no-repeat bottom right;
+}
+
+div.bubble2 div div {
+	background: url(../../images/green/bub2-bl.gif) no-repeat bottom left;
+}
+
+div.bubble2 div div div {
+	background: url(../../images/green/bub2-tr.gif) no-repeat top right;
+}
+
+div.bubble2 div div div div {
+	background: url(../../images/green/bub2-tl.gif) no-repeat top left;
+}
+
+div.bubble3 div {
+	background: url(../../images/green/bub3-br.gif) no-repeat bottom right;
+}
+
+div.bubble3 div div {
+	background: url(../../images/green/bub3-bl.gif) no-repeat bottom left;
+}
+
+div.bubble3 div div div {
+	background: url(../../images/green/bub3-tr.gif) no-repeat top right;
+}
+
+div.bubble3 div div div div {
+	background: url(../../images/green/bub3-tl.gif) no-repeat top left;
+}
+
+div.bubble4 div {
+	background: url(../../images/green/bub4-br.gif) no-repeat bottom right;
+}
+
+div.bubble4 div div {
+	background: url(../../images/green/bub4-bl.gif) no-repeat bottom left;
+}
+
+div.bubble4 div div div {
+	background: url(../../images/green/bub4-tr.gif) no-repeat top right;
+}
+
+div.bubble4 div div div div {
+	background: url(../../images/green/bub4-tl.gif) no-repeat top left;
+}
+
+.legend-title {
+	background: #FFFFFF;
+	color: #568736;
+}
+
+.legend {
+	border: 1px solid #B9D5A8;
+}
+
+/* Navigation ---*/
+#ja-splitmenu a {
+	background: url(../../images/green/nav-bg.gif) no-repeat top right #F3F8EF;
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	color: #568736;
+	background: url(../../images/green/nav-hover.gif) no-repeat top right #DBEAD1;
+}
+
+#ja-splitmenu li.active a {
+	background: url(../../images/green/nav-active.gif) no-repeat top right #568736;
+}
+
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	background: url(../../images/green/nav-active.gif) no-repeat top right #568736;
+}
+/* Defined & replaced on hornik.css */
+#ja-cssmenu li a {
+	color: #333333;
+}
+
+#ja-cssmenu li:hover a,
+#ja-cssmenu li.sfhover a,
+#ja-cssmenu li.havechildsfhover a,
+#ja-cssmenu li.havechild-activesfhover a {
+	color: #FFFFFF;
+}
+
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	color: #000000;
+}
+
+
+#ja-cssmenu li ul {
+	border: 3px solid #DBEAD1;
+	background: url(../../images/green/grad-1.gif) repeat-x bottom #DBEAD1;
+}
+
+#ja-cssmenu li ul li { border-bottom: 1px solid #C4DCB5; }
+
+#ja-cssmenu li li a.sfhover,
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu ul li:hover,
+#ja-cssmenu ul li.sfhover,
+#ja-cssmenu ul li.havesubchildsfhover,
+#ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul ul li.sfhover,
+#ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background: #568736;
+}
+
+#ja-cssmenu ul li a.active { color: #568736 !important; }
+
+#ja-cssmenu li li:hover > a { background: #568736; }

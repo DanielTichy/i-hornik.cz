@@ -1,0 +1,41 @@
+ /*------------------------------------------------------------------------
+# Customizace tiskovych stylu pro web http://i_hornik_cz.cz
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 DWP Studio. All Rights Reserved.
+# Author: Daniel Tichy (dwp.studio@gmail.com)
+# Websites: http://dwp-studio.aspone.cz (http://www.dwpstudio.ic.cz)
+# This file may not be redistributed in whole or significant part.
+-------------------------------------------------------------------------*/
+
+
+body {
+	background: #ffffff;
+	color: #0000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 1.6;	
+	margin:0px;
+}
+
+body *{
+	background: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+a, a:link, a:active, a:visited, a:hover, a:focus{
+	text-decoration: underline !important;
+}
+
+/*
+  ====================================
+	Zneviditelneni irelevantnich bloku
+  ==================================== 
+*/
+
+#ja-header,
+#ja-mainnav, 
+#ja-search,
+#ja-footer,
+#ja-botsl{
+	display: none;
+}

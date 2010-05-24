@@ -1,0 +1,225 @@
+ /*------------------------------------------------------------------------
+# Customizace stylu pro web http://i_hornik_cz.cz
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 DWP Studio. All Rights Reserved.
+# Author: Daniel Tichy (dwp.studio@gmail.com)
+# Websites: http://dwp-studio.aspone.cz (http://www.dwpstudio.ic.cz)
+# This file may not be redistributed in whole or significant part.
+-------------------------------------------------------------------------*/
+
+
+/*
+  ====================================
+	Logo
+  ==================================== 
+*/ 
+h1.logo a, 
+h1.logo a:hover, 
+h1.logo a:active, 
+h1.logo a:focus  { 
+	background: url(../images/i_hornik_cz/logo.jpg) no-repeat; 
+}
+
+/*
+  ====================================
+	Hlavni navigace
+  ==================================== 
+*/
+#ja-mainnav {
+	border-bottom: 0px;
+	margin-bottom: 3px;
+	height: 45px; /* 56px - 10px padd */
+	background: url(../images/i_hornik_cz/mainnav_bg.gif) repeat-x;	
+	padding: 11px 0 0px 0;
+}
+#ja-mainnav #ja-cssmenu li{
+	height: 39px; 
+	line-height: 39px;
+	width: auto;
+	margin-right: 5px;
+	position: relative;
+	background: url(../images/i_hornik_cz/mainnav_item_3state.gif) right 0px no-repeat;	
+}
+
+#ja-mainnav #ja-cssmenu li.active,
+#ja-mainnav #ja-cssmenu li.activesfhover{
+	background: url(../images/i_hornik_cz/mainnav_item_3state.gif) right -80px no-repeat;	
+}
+
+#ja-mainnav #ja-cssmenu li a {
+	color: #333333;
+	background: transparent;
+} 
+
+#ja-mainnav #ja-cssmenu li:hover a,
+#ja-mainnav #ja-cssmenu li.sfhover a,
+#ja-mainnav #ja-cssmenu li.havechildsfhover a,
+#ja-mainnav #ja-cssmenu li.havechild-activesfhover a {
+	color: #FFFFFF;	
+}
+
+#ja-mainnav #ja-cssmenu li a.active,
+#ja-mainnav #ja-cssmenu li a.active:hover,
+#ja-mainnav #ja-cssmenu li a.active:active,
+#ja-mainnav #ja-cssmenu li a.active:focus {
+	color: #000000;	
+}
+
+#ja-mainnav #ja-cssmenu li ul {
+	border: 3px solid #DBEAD1;
+	background: url(../images/i_hornik_cz/green/grad-1.gif) repeat-x bottom #DBEAD1;
+}
+
+#ja-mainnav #ja-cssmenu li ul li { 
+	background: none;
+	border-bottom: 1px solid #C4DCB5; 
+	height: auto;
+	line-height: auto;
+	width: auto;
+	margin-right: 0px;
+}
+
+#ja-mainnav #ja-cssmenu li li a.sfhover,
+#ja-mainnav #ja-cssmenu li ul a:hover,
+#ja-mainnav #ja-cssmenu li ul a:active,
+#ja-mainnav #ja-cssmenu li ul a:focus,
+#ja-mainnav #ja-cssmenu ul li:hover,
+#ja-mainnav #ja-cssmenu ul li.sfhover,
+#ja-mainnav #ja-cssmenu ul li.havesubchildsfhover,
+#ja-mainnav #ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-mainnav #ja-cssmenu ul ul li:hover,
+#ja-mainnav #ja-cssmenu ul ul li.sfhover,
+#ja-mainnav #ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-mainnav #ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background-image: none !important;
+	background-position: left top;
+	background: #568736;
+	color: #666666;
+}
+
+#ja-mainnav #ja-cssmenu ul li a.active {
+	color: #568736 !important;
+}
+
+#ja-mainnav #ja-cssmenu li li:hover > a {
+	background: #568736;
+}
+
+
+/*
+  ====================================
+	JS Slider pod navigaci
+  ==================================== 
+*/
+#ja-newsflash { 
+	height: 280px;
+	background: url(../images/i_hornik_cz/newsflash_bg.gif) repeat-x;	
+	padding: 0px 0 16px 0;
+}
+
+#ja-newsflash .nftitle{
+	color: #006737 !important; 
+	font-weight: bold;
+}
+#ja-newsflash * {
+	color: #000000 !important;
+}
+#ja-newsflash .nfcontent{
+	color: #000000;
+}
+#ja-newsflash .nfcontent ul{
+	margin-top: 5px !important;
+}
+
+/*
+  ====================================
+   Kompenzace odpalu textu u upoutavek 
+   3 + 1 bloky pod newsflashem
+  ==================================== 
+*/
+#ja-container #ja-content #ja-topsl .moduletable,
+#ja-container #ja-col .ja-innerpad  .moduletable{
+    /*background: orange;*/
+    height: 250px;  /* Zde se nastavuje vyska vsech 4 bloku na HP vo jseou vedle sebe, nezavisle na delce textu*/
+    padding-top:0;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
+
+#ja-container #ja-content #ja-topsl .moduletable p,
+#ja-container #ja-col .ja-innerpad  .moduletable p{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#ja-container #ja-col .ja-innerpad  .moduletable .ja-box-ct{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#ja-container #ja-content #ja-topsl .moduletable p img,
+#ja-container #ja-col .ja-innerpad  .moduletable p img{
+	margin: 0 0 5px 0 !important;
+}
+/* Hlavni blok obsahu */
+#ja-current-content {
+	clear: left;    /* Oprava , v IE 7/8 se obcas nezobraoval hornir sedy pruh, chyba floatovani */
+}
+/*
+  ====================================
+	Spopdni blok se seznamem linku
+	a kontakty
+  ==================================== 
+*/
+#ja-botsl { 
+	height: 304px;
+	background: url(../images/i_hornik_cz/botsl_bg.gif) repeat-x;
+	overflow: hidden;
+	padding:0;
+}
+#ja-botsl .main {
+	color: #ffffff;
+	padding-top: 30px;
+}
+#ja-botsl div.moduletable h3 {
+	color: #ffffff;
+}
+#ja-botsl a:hover, #ja-botsl a:active, #ja-botsl a:focus {
+	background: #385723;
+}
+#ja-botsl ul.latestnews li, #ja-botsl ul.mostread li {
+	border-top: 1px dotted #7FAA62;
+}
+#ja-botsl ul.latestnews li a, #ja-botsl ul.mostread li a {
+	color: #ffffff;
+}
+#ja-botsl ul.latestnews li a:hover, #ja-botsl ul.mostread li a:hover,
+#ja-botsl ul.latestnews li a:active, #ja-botsl ul.mostread li a:active,
+#ja-botsl ul.latestnews li a:focus, #ja-botsl ul.mostread li a:focus {
+	color: #ffffff;
+	background: #385723;
+}
+/*
+  ====================================
+	Uplne dolni prazdny blok
+  ==================================== 
+*/
+#ja-footer { 
+	border-top: 0; 
+	height: 49px;
+	background: url(../images/i_hornik_cz/footer_bg.gif) repeat-x;
+}
+
+#ja-col {
+	float: right;
+	width: 240px;
+	overflow: hidden;
+	padding: 0;
+}
+#ja-col .ja-box-ct p{
+	margin: 15px 0 0 0;	
+	width: 210px;
+	overflow: hidden;
+}
+* html body #ja-col .ja-box-ct p{
+	margin-top: 5px !important;
+}
